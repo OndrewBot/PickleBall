@@ -1,0 +1,17 @@
+# pickleball-tournament
+Creates a round-robin style pickleball tournament for paired games
+ONGOING - NOT YET COMPLETE
+
+_______________________________________________________________________________
+
+Current round-robin algorithms can't mathematically design gameplay unless 1v1.
+Assumptions:
+1. at least 8 players
+2. courts populated based on headcounts. If num%4 != 0, then 'byes' will be req'd
+3. 'north' team serves, 'south' team receives 
+
+Goals:
+1. Player should not play with anyone more than once
+2. Avoid having the same 4 players (paired differently) play back to back on the same court.
+3. Player should ideally play same number of times north and south
+4. Player should not have more than one bye
